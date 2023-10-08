@@ -1,0 +1,229 @@
+.posts-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post {
+  width: 45%;
+  margin: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  border: 2px solid #cf3a6c;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+  rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+  rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+
+.post h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.post p {
+  margin-bottom: 10px;
+}
+
+.comment {
+  margin-top: 10px;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+.selected-post {
+  border: 5px solid #cf3a6c;
+  background-color: #e1a0b6;
+ 
+}
+
+.posts-container {
+  /* קוד עיצוב כללי ל-container */
+}
+
+.post {
+  /* קוד עיצוב כללי לפוסט */
+}
+
+.post h3 {
+  /* קוד עיצוב כללי לכותרת הפוסט */
+}
+
+.post p {
+  /* קוד עיצוב כללי לתוכן הפוסט */
+}
+
+.post .actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #cf3a6c;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post button:first-of-type {
+  margin-left: 0;
+}
+
+.post button:hover {
+  background-color: #ff7aa8;
+}
+
+.post button:active {
+  background-color: #ad1e4e;
+}
+
+/* New Styles */
+
+.post .actions {
+  align-self: flex-start;
+  margin-left: auto;
+}
+
+.post button.edit-button {
+  background-color: #5aa9e6;
+}
+
+.post button.delete-button {
+  background-color: #e65a5a;
+}
+
+.post button.edit-button:hover {
+  background-color: #7ac5ff;
+}
+
+.post button.delete-button:hover {
+  background-color: #ff7a7a;
+}
+
+.post button.edit-button:active {
+  background-color: #2c5e89;
+}
+
+.post button.delete-button:active {
+  background-color: #892c2c;
+}
+
+.post button.add-button {
+  background-color: #56e65a;
+}
+
+.post button.add-button:hover {
+  background-color: #7aff7a;
+}
+
+.post button.add-button:active {
+  background-color: #2c892c;
+}
+
+.add-post-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.add-post-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #cf3a6c;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-post-button:hover {
+  background-color: #ff7aa8;
+}
+
+.add-post-button:active {
+  background-color: #ad1e4e;
+}
+
+.add-post-button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.add-post-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #cf3a6c;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-post-button:hover {
+  background-color: #ff7aa8;
+}
+
+.add-post-button:active {
+  background-color: #ad1e4e;
+}
+
+
+textarea {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  resize: vertical;
+  overflow-y: auto;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+
+.add-post-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.add-post-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #ad1e4e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-post-button:hover {
+  background-color: #ff7aa8;
+}
+
+.sorting-container select,
+.sorting-container option {
+  padding: 8px;
+  border-radius: 8px;
+  border: 4px solid #cf3a6c;
+  font-size: 15px;
+}
+
+.filtering-container select,
+.filter-container option {
+  padding: 8px;
+  border-radius: 8px;
+  border: 4px solid #cf3a6c;
+  font-size: 15px;
+}
+.filtering-container label {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 25px;
+}
